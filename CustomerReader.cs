@@ -52,7 +52,7 @@ namespace CustomerReader
         /// This method give the count of customers
         /// </summary>
         /// 
-        public int getCount()
+        public int GetCount()
         {
             return dataList.Count;
         }
