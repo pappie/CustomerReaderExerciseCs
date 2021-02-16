@@ -8,6 +8,6 @@ namespace CustomerReader
         List<T> dataList { get; set; }
         void DisplayData();
         void LoadData(String filePath);
-        int getCount();
+        int GetCount();
     }
 }

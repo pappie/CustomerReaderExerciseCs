@@ -26,7 +26,7 @@ namespace CustomerReader
             xmlReader.LoadData(filePath + "customers.xml");
 
             //get the total count of all 3 files data
-            int count = csvReader.getCount() + jsoneader.getCount() + xmlReader.getCount();
+            int count = csvReader.GetCount() + jsoneader.GetCount() + xmlReader.GetCount();
             Console.WriteLine("Added this many customers: " + count + "\n");
 
             //display the customer data from 3 files

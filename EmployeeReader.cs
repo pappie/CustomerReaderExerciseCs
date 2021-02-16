@@ -13,7 +13,7 @@ namespace CustomerReader
             throw new NotImplementedException();
         }
 
-        public int getCount()
+        public int GetCount()
         {
             throw new NotImplementedException();
         }
